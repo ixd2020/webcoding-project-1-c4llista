@@ -1,0 +1,33 @@
+/* CSS files add styling rules to your content */
+header{
+  font-family: helvetica, sans-serif;
+  margin: 2em;
+}
+
+#box, #display{
+    width: 300px;
+    height: 50px;
+    background-color: #ffffff;
+    border: solid 1px #c3c3c3;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    font-family: helvetica neue, bold, sans-serif;
+}
+
+
+/* Set the font size to 12px and the line height to 14px.
+   Set the font family to sans-serif */
+
+
+p { font: 12px sans-serif}
+p { font:  sans-serif }
+
+
+img {
+  width: 1000px;
+  height: 600px;
+  
+}
+
