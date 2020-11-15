@@ -4,30 +4,53 @@ header{
   margin: 2em;
 }
 
-#box, #display{
-    width: 300px;
-    height: 50px;
-    background-color: #ffffff;
-    border: solid 1px #c3c3c3;
-    text-align: center;
-    vertical-align: middle;
-    display: table-cell;
-    position: relative;
-    font-family: helvetica neue, bold, sans-serif;
+h1 {
+  font-style: italic;
+  color: #373fff;
 }
 
-
-/* Set the font size to 12px and the line height to 14px.
-   Set the font family to sans-serif */
-
-
-p { font: 12px sans-serif}
-p { font:  sans-serif }
-
-
-img {
-  width: 1000px;
-  height: 600px;
-  
+* {
+  box-sizing: border-box;
 }
 
+.box {
+  float: left;
+  height: 200px;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.redbox {
+  background-color: red;
+}
+
+.greenbox {
+  background-color: green;
+  color: yellow;
+  font-size: 20px;
+}
+
+.bluebox {
+  background-color: blue;
+}
+
+.yellowbox {
+  background-color: yellow;
+}
+
+.threecol{
+  width: 33.33%;
+}
+
+.twocol{
+  width: 50%;
+}
+
+.onecol{
+  width: 100%;
+}
