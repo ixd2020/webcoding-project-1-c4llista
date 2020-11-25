@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>EDWARD HOPPER WORKS</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+</head> 
+  <body>
+     
+  <h1 onclick="changeText(this)">press me plz</h1>
+<p onclick="changeText(this)">hey youuuuu click me</p>
+    <div onclick="changeText(this)">hey U Click me</div>
+
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#3656c9;width:200px;height:40px;padding:40px;">
+Mouse Over Me</div>
+<div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+style="background-color:#f2ec3a;width:200px;height:40px;padding:40px;">
+i feel sparks</div>
+      
+    <img src="https://cdn.glitch.com/b4e8859f-15be-4ce8-ba8d-dde52ac5b666%2Fthumbnails%2FIMG_3591.jpg?1606269983871">
+    <h2>hiiiiii</h2>
+
+<p>gulglulluulluuluu</p>
+
+<button id="myBtn">wats the time wolf</button>
+    <h2>wat is this</h2>
+
+<p>hello</p>
+
+<button id="myBtn2">hehehe</button>
+
+<p id="demo"></p>
+    <p id="demo2"></p>
+
+<script>
+function changeText(id) {
+  id.innerHTML = "Oops!";
+}
+  document.getElementById("demo").innerHTML = "if u feel sad i can eat u";
+  
+function mOver(obj) {
+  obj.innerHTML = "i feel sparks"
+}
+
+function mOut(obj) {
+  obj.innerHTML = "Mouse Over Me"
+}
+  document.getElementById("myBtn").addEventListener("click", displayDate);
+
+function displayDate() {
+  document.getElementById("demo2").innerHTML = Date();
+}
+  document.getElementById("myBtn2").addEventListener("click", myFunction);
+
+function myFunction() {
+  alert ("AAAAAAAAAA");
+}
+
+</script>
+    
+    <a href="index.html">HOME</a>
+    </body>
+</html>
