@@ -1,0 +1,160 @@
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+body3 {
+  background-color: #eef0c7;
+}
+
+h3 {
+  font-style: bold;
+  font-family: helvetica neue;
+  color: black;
+  font-size: 50px;
+}
+
+table, th, td {
+  border: 3px solid #eef0c7;
+  background-color: ##f5f5d3; 
+  border-collapse: collapse;
+  
+}
+
+th, td {
+  padding: 5px;
+  text-align: center;   
+  font-size: 20px;
+  font-family: helvetica neue;
+  font-style: bold;
+  
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+/* mouse over link */
+a:hover {
+  color: #999999;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 66.66%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.responsive {
+  max-width: 300px;
+  width:100%
+  height: auto;
+}
+
+div {
+  border: 1px solid #eef0c7;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  padding: 5px;
+  background-color: #eef0c7;
+  font-style: bold;
+  font-family: helvetica neue;
+  color: black;
+  
+}
+
+.img-with-text img {
+    text-align: justify;
+    width: 300px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 30px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 8px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 8px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+.column img {
+  margin-top: 12px;
+}
+
+h31 {
+  font-style: bold;
+  font-family: helvetica neue;
+  color: black;
+  font-size: 40px;
+  padding: 30px;
+}
+
+iframe {
+  padding: 30px;
+  float: center;
+  width: 90%;
+  width= 560px;
+  height= 315px;
+}
+
+</style>
